@@ -15,7 +15,7 @@ white = (255, 255, 255)
 screen = pygame.display.set_mode( (width, height) )
 
 # Load an image
-ball = pygame.image.load("img/peppa.jpeg")
+ball = pygame.image.load("img/peppa.jpg")
 ballrect = ball.get_rect()
 
 while True:
